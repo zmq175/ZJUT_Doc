@@ -3,10 +3,10 @@
 需要环境
 ------------------------------
 系统：CentOS-6.5
-用到的工具：-Openoffice 4.1.1
-			-Openoffice SDK 4.1.1
-			-Swftools
-			-Jodconverter
+用到的工具：*Openoffice 4.1.1
+			*Openoffice SDK 4.1.1
+			*Swftools
+			*Jodconverter
 配置环境
 ---------------------------------
 >安装openoffice，去官网下载openoffice安装包（Apache_OpenOffice_4.1.1_Linux_x86-64_install-rpm_zh-CN.tar.gz）
@@ -57,6 +57,7 @@ $cd ../../
 $./configure
 make&&sudo make install
 ```
+>
 文件结构
 -------------------------------------------------------
 selectfile.html 				前端上传页面
@@ -69,5 +70,5 @@ pdf2swf的调用需要改为绝对路径或者提前声明。
 更新
 -------------------------------------------------------
 ###2014/12/7
--本地配置了所有需要的文件
--建立了最基础的上传与处理页面。
+*本地配置了所有需要的文件
+*建立了最基础的上传与处理页面。
